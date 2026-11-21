@@ -24,8 +24,5 @@
       # (prevents conflicts between iwd and NetworkManager)
       EnableNetworkConfiguration = false;
     };
-    Settings = {
-      AutoConnect = true;
-    };
   };
 }
