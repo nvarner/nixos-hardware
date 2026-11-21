@@ -11,9 +11,6 @@
 { lib, ... }:
 
 {
-  # Required for iwd to work with MT7925 - includes non-redistributable firmware
-  hardware.enableAllFirmware = lib.mkDefault true;
-
   # Use iwd backend instead of wpa_supplicant
   networking.networkmanager.wifi.backend = lib.mkDefault "iwd";
 
